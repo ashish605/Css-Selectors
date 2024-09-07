@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- if selecter is same which is on the lowest position will be apllied on the content -->
+    <!-- if the selector are different then it comes on specificty the most specific on is inline than id then class -->
+    <style>
+        h1 {
+            color: aqua;
+        }
+
+        .a {
+            color: red;
+
+        }
+
+        .a {
+            color: blue;
+
+        }
+
+        .a {
+            color: violet;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="a" class="b" class="c">
+        hello jii
+    </h1>
+</body>
+
+</html>
